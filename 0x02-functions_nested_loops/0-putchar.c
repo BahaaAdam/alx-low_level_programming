@@ -1,13 +1,21 @@
-#include <stdio.h>
-/**
- * main - main fucntion
- *
- * description: A program that writes _putcher with a new line afterwards
- * return: 0 (success)
- */
+#include "main.h"
 
+/**
+ * main - Entry point
+ * Description: 'prints _putchar to stdout'
+ * Return: Always 0
+ */
 int main(void)
 {
-	printf("_putcher\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 return (0);
 }
