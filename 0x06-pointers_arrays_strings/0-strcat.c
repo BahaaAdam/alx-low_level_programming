@@ -11,14 +11,13 @@
 char *_strcat(char *dest, char *src)
 {
 
-	char *dest[98];
-	char *src[];
+	char *dest[], *src[}, i, j;
 
 
-	for (i = 0, i <= 4, i++)
-
+	for (*dest = 0, dest[i] != '\0', i++)
+	for (*src = 0, src[j] != '\0', j++, i++)
 	{
-		*dest[length 1 + i], *src[i];
+		*dest[i], *src[j];
 	}
 
 	return (0);
