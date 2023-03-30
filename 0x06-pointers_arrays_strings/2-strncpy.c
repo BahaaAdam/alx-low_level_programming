@@ -10,14 +10,14 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	char dest[i];
-	char src[i];
-	int n = 0;
+	char *dest[n];
+	char *src[n];
+	n = 0;
 
 
-	if (dest == NULL)
+	if (dest == '\0')
 	{
-		return (NULL);
+		return ('\0');
 	}
 
 
