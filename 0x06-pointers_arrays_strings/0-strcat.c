@@ -2,6 +2,8 @@
 
 /**
  * *_strcat - a program that concatinates two strings
+ * @dest: destionation string 1
+ * @src: source string 2
  * Return: 0 (success)
  */
 
