@@ -10,10 +10,14 @@
 char *_strcat(char *dest, char *src)
 {
 
+	char *dest[98];
+	char *src[];
+
+
 	for (i = 0, i <= 4, i++)
 
 	{
-		s1[length 1 + i], s2[i];
+		*dest[length 1 + i], *src[i];
 	}
 
 	return (0);
