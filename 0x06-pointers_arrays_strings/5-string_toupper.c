@@ -3,7 +3,6 @@
 /**
  * *string_toupper - transforms lower case letters to upper case letters
  * @str : string (array)
- * @i : counter variable
  * Return: str
  */
 
