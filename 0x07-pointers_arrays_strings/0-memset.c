@@ -4,19 +4,17 @@
  * _memset - function to apoint memory for a certain char or int
  * @s : pointer to buffer
  * @i : counter variable
- * return: *s
+ * return: s
  */
 
 char _memset(char *s, char b, unsigned int n)
 {
-	int i;
-	*s[i];
+	unsigned char *i = s;
 
-
-	for (i = 0, i != '\0', i++)
+	while (n--)
 	{
-		*s[i] = "b";
+		*i++ = (unsigned char)b;
 	}
 
-	return (*s);
+	return (s);
 }
