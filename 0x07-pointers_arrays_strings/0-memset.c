@@ -1,10 +1,11 @@
 #include "main.h"
 
-/*
+/**
  * _memset - function to apoint memory for a certain char or int
  * @s : pointer to buffer
- * @i : counter variable
- * return: s
+ * @b : the desired char
+ * @n : number of bytes changed
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
