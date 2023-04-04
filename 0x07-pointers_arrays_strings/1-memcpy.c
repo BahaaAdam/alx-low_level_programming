@@ -1,12 +1,11 @@
 #include "main.h"
 
 /*
- *
- * *_memcpy - a function to copy the memory adress from n bytes from adress to another
+ * _memcpy - a function that copies memory area
  * @dest : destenation
  * @src : source
  *
- * Return: *dest
+ * return: *dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
