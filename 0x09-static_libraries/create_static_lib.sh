@@ -1,1 +1,1 @@
-sudo ar -rcs liball.a *.o
+ar -rcs liball.a *.o
