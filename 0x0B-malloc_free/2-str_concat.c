@@ -6,7 +6,7 @@
  * str_concat - gets ends of input and add togther for size
  * @s1 : input 1 for concat
  * @s2 : input 2 for concat
- * Return: concat of 1 and 2
+ * Return: concat of s1 and s2
  */
 
 char *str_concat(char *s1, char *s2)
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 
 	while (s1[i] != '\0')
 	{
-		conct[i] = s2[i];
+		conct[i] = s1[i];
 		i++;
 	}
 
